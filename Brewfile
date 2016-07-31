@@ -4,6 +4,7 @@ tap 'homebrew/bundle'
 
 brew 'ack'
 brew 'coreutils'
+brew 'emacs'
 brew 'go'
 brew 'grc'
 brew 'imagemagick'
@@ -23,17 +24,31 @@ brew 'unrar'
 brew 'wget'
 brew 'youtube-dl'
 
+# Security
 #cask '1password'
+cast 'avast'
+# Communication
 cask 'adium'
-cask 'atom'
-cask 'firefox'
-#cask 'garmin-express'
-cask 'google-chrome'
-cask 'handbrake'
-#cask 'mapbox-studio'
-cask 'seashore'
+cask 'skype'
 cask 'slack'
+# Browsers
+cask 'firefox'
+cask 'google-chrome'
+# Productivity
+cask 'libreoffice'
+cask 'synology-cloud-station-drive'
+cask 'handbrake'
+cask 'seashore'
+# Entertainment
+cask 'spotify'
 cask 'steam'
-cask 'transmission'
-cask 'tunnelbear'
 cask 'vlc'
+# Dev stuff
+cask 'atom'
+cask 'dash'
+cask 'iterm2'
+cask 'sourcetree'
+cask 'virtualbox'
+# Misc
+cask 'transmission'
+#cask 'tunnelbear'
