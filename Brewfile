@@ -26,7 +26,7 @@ brew 'youtube-dl'
 
 # Security
 #cask '1password'
-cast 'avast'
+cask 'avast'
 # Communication
 cask 'adium'
 cask 'skype'
