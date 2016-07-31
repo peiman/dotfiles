@@ -1,3 +1,0 @@
-[submodule "zsh/zplug.symlink"]
-	path = zsh/zplug.symlink
-	url = https://github.com/zplug/zplug
