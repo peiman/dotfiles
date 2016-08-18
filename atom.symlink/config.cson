@@ -26,6 +26,8 @@
     softWrapAtPreferredLineLength: true
   "go-plus":
     goPath: "/Users/peiman/Code/go"
+  linter:
+    errorPanelHeight: 120
   "release-notes":
     viewedVersion: "0.89.0"
   "spell-check":
