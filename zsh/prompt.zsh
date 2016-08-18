@@ -80,3 +80,5 @@ precmd() {
   title "zsh" "%m" "%55<...<%~"
   set_prompt
 }
+
+
