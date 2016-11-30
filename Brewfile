@@ -24,18 +24,22 @@ brew 'unrar'
 brew 'wget'
 brew 'youtube-dl'
 
+# Development
+brew 'carthage'
+cask 'fastlane'
+
 # Security
 #cask '1password'
 cask 'avast'
 # Communication
-cask 'adium'
+#cask 'adium'
 cask 'skype'
 cask 'slack'
 # Browsers
 cask 'firefox'
 cask 'google-chrome'
 # Productivity
-cask 'libreoffice'
+#cask 'libreoffice'
 cask 'synology-cloud-station-drive'
 cask 'handbrake'
 cask 'seashore'
