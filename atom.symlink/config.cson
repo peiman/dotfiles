@@ -15,6 +15,7 @@
       "tmp"
       "vendor"
     ]
+    telemetryConsent: "limited"
     themes: [
       "atom-material-ui"
       "atom-material-syntax-dark"
@@ -24,10 +25,19 @@
     invisibles: {}
     showIndentGuide: true
     softWrapAtPreferredLineLength: true
+  "file-icons":
+    onChanges: true
   "go-plus":
+    currentPanelHeight: "25.681341719077565vh"
     goPath: "/Users/peiman/Code/go"
-  linter:
-    errorPanelHeight: 120
+  "gpp-compiler":
+    cCompiler: "/usr/local/Cellar/gcc/7.1.0/bin/gcc-7"
+    compileToTmpDirectory: false
+  linter: {}
+  "linter-gcc":
+    execPath: "/usr/local/Cellar/gcc/7.1.0/bin/gcc-7"
+  "linter-ui-default":
+    panelHeight: 81
   "release-notes":
     viewedVersion: "0.89.0"
   "spell-check":

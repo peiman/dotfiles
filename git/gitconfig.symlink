@@ -9,13 +9,14 @@
         wtf     = !$ZSH/bin/git-wtf
         rank-contributors = !$ZSH/bin/git-rank-contributors
         count   = !git shortlog -sn
+	lg = 
 [color]
         diff = auto
         status = auto
         branch = auto
         ui = true
 [core]
-        excludesfile = ~/.gitignore
+	excludesfile = /Users/peiman/.gitignore
 	editor = atom --wait
 [apply]
         whitespace = nowarn
@@ -37,3 +38,8 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[user]
+	name = Peiman Khorramshahi
+	email = peiman.khorramshahi@daralabs.com
+[commit]
+	template = /Users/peiman/.stCommitMsg

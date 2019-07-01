@@ -39,3 +39,8 @@ do
 done
 
 unset config_files
+
+export PATH="$HOME/.fastlane/bin:$PATH"
+
+export EDITOR="nano"
+
